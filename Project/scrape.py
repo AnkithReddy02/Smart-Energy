@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 def scrape_details_urls(url):
     # Initialize Selenium webdriver
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Run in headless mode (without opening a browser window)
+    options.add_argument('--headless') 
     driver = webdriver.Chrome(options=options)
     
     # Fetch the webpage
